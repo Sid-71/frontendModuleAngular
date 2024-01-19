@@ -1,0 +1,24 @@
+<div class="currency-container">
+    <h2>Currency Converter</h2>
+  
+    <div class="input-container">
+      <label for="value">Enter the value:</label>
+      <input class="input" type="text" id="value" placeholder="Enter the value" [(ngModel)]="value">
+    </div>
+  
+    <div class="select-container">
+      <label for="currency">Select the currency:</label>
+      <select id="currency" [(ngModel)]="FromCurrency">
+        <option *ngFor="let currency of list" [value]="currency">{{ currency }}</option>
+      </select>
+      <label for="currency">Select the to currncy:</label>
+      <select id="currency" [(ngModel)]="ToCurrency">
+        <option *ngFor="let currency of list" [value]="currency">{{ currency }}</option>
+      </select>
+    </div>
+  
+    <div class="result-container">
+      <h1>Result: {{ calculateResult() }}</h1>
+    </div>
+  </div>
+  

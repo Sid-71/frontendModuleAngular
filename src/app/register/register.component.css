@@ -1,0 +1,36 @@
+/* Add any global styles here */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styling for the login and registration components */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  mat-card {
+    width: 400px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  button, a {
+    margin-top: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    display: block;
+  }
+  

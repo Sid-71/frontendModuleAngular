@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "json-server",
+      "password": "typicode"
+    },
+    {
+      "name": "sidharth",
+      "id": "sidharthdhimantdi@gmial.com",
+      "password": "Raj12587"
+    }
+  ],
+  "todo": [
+    {
+      "id": 1,
+      "email": "sidharth@gmail.com",
+      "task": "hey there "
+    },
+    {
+      "task": "cars",
+      "email": "sidharth@gmail.com",
+      "id": 2
+    },
+    {
+      "task": "cars",
+      "email": "sidharth@gmail.com",
+      "id": 3
+    },
+    {
+      "task": "cars",
+      "email": "sidharth@gmail.com",
+      "id": 4
+    },
+    {
+      "task": "ben 10 hey thhere ",
+      "email": "sidharth@gmail.com",
+      "id": 5
+    }
+  ]
+}
